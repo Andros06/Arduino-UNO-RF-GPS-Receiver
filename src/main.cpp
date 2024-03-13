@@ -51,7 +51,10 @@ void loop() {
       digitalWrite(LED, HIGH);
       
       // Convert received message to string
-      String receivedMessage = (char*)buf;
+      String receivedMessage;
+      for (int i = 0; i < len; i++) {
+        receivedMessage += (char)buf[i];
+      }
       
       // Check if the received message is a GPS data message
       if (receivedMessage.startsWith("GPS:")) {
@@ -73,3 +76,4 @@ void loop() {
     }
   }
 }
+
