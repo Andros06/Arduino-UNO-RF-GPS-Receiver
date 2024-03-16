@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../../NTNU/Arduino/VscProjects/BinaryLed/Arduino-RFM69-Receiver"
+		},
+		{
+			"name": "Arduni Uno GPS RF combined",
+			"path": "../../Arduni Uno GPS RF combined"
+		},
+		{
+			"name": "Arduino UNO RF GPS Receiver",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
